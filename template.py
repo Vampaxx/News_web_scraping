@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-project_name = "Database_API"
+project_name = "News_web_scraping"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
