@@ -9,7 +9,7 @@ from pathlib import Path
 from ensure import ensure_annotations
 from box.exceptions import BoxValueError
 
-from Document_Summarizer import logger
+from News_web_scraping import logger
 
 
 
