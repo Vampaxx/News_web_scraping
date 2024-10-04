@@ -37,8 +37,8 @@ class CombiningPipeline:
                 raise OutputParserException("No data to extract from the provided webpage.")
 
             # Process the extracted text using the PromptAndChainPipeline
-            prompt = PromptAndChainPipeline()
-            chain = prompt.main()
+            prompt  = PromptAndChainPipeline()
+            chain   = prompt.main()
 
             # Invoke the chain with the extracted page text
             return chain.invoke(page_text)
