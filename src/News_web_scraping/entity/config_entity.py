@@ -9,3 +9,8 @@ class ModelConfig:
     temperature         : int 
     api_key             : Optional[str]
     max_token           : int     
+
+@dataclass(frozen=True)
+class WebScrapingConfig:
+    headers         : str 
+    extracted_path  : Path 
